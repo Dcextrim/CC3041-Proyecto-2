@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (regenerable via benchmark.py / generar_informe_pdf.py)
+scatter_regression.png
+benchmark_results.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project deliverables not to include
+informe/
